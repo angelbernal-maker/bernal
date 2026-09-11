@@ -34,12 +34,9 @@
 
     <section id="home" class="home">
 
-        <!-- BACKGROUND DECORATIONS -->
         <div class="circle circle-one"></div>
         <div class="circle circle-two"></div>
         <div class="circle circle-three"></div>
-
-        <!-- LEFT SIDE -->
 
         <div class="home-content">
 
@@ -75,32 +72,41 @@
             </div>
 
 
-            <!-- SMALL INFORMATION -->
-
             <div class="mini-info">
 
                 <div class="mini-item">
+
                     <strong>★</strong>
+
                     <div>
                         <b>3</b>
                         <span>Services</span>
                     </div>
+
                 </div>
 
+
                 <div class="mini-item">
+
                     <strong>♪</strong>
+
                     <div>
                         <b>1</b>
                         <span>Favorite Song</span>
                     </div>
+
                 </div>
 
+
                 <div class="mini-item">
+
                     <strong>▣</strong>
+
                     <div>
                         <b>2026</b>
                         <span>My Journey</span>
                     </div>
+
                 </div>
 
             </div>
@@ -111,8 +117,6 @@
         <!-- ================= RIGHT SIDE ================= -->
 
         <div class="home-right">
-
-            <!-- PROFILE IMAGE -->
 
             <div class="photo-area">
 
@@ -143,6 +147,7 @@
                     ♪
                 </div>
 
+
                 <div class="music-info">
 
                     <span>
@@ -158,6 +163,7 @@
                     </p>
 
                 </div>
+
 
                 <audio controls>
 
@@ -254,7 +260,7 @@
 
                     <div>
                         <strong>Location</strong>
-                        <span>Philippines</span>
+                        <span>Quezon City</span>
                     </div>
 
                 </div>
@@ -351,7 +357,6 @@
 
             </div>
 
-
         </div>
 
     </section>
@@ -363,6 +368,9 @@
     <section id="contact" class="section contact">
 
         <div class="contact-container">
+
+
+            <!-- CONTACT INFORMATION -->
 
             <div class="contact-text">
 
@@ -384,17 +392,25 @@
 
                     <div>
                         <i>✉</i>
-                        <span>angelbernal@gmail.com</span>
+                        <span>
+                            angelbernal@gmail.com
+                        </span>
                     </div>
+
 
                     <div>
                         <i>☎</i>
-                        <span>+63 9123 456 7891</span>
+                        <span>
+                            09123456789
+                        </span>
                     </div>
+
 
                     <div>
                         <i>●</i>
-                        <span>Quezon City</span>
+                        <span>
+                            Quezon City
+                        </span>
                     </div>
 
                 </div>
@@ -402,43 +418,77 @@
 
                 <div class="socials">
 
-                    <a href="#">f</a>
-                    <a href="#">◎</a>
-                    <a href="#">♪</a>
-                    <a href="#">▶</a>
+                    <a href="#">
+                        f
+                    </a>
+
+                    <a href="#">
+                        ◎
+                    </a>
+
+                    <a href="#">
+                        ♪
+                    </a>
+
+                    <a href="#">
+                        ▶
+                    </a>
 
                 </div>
 
             </div>
 
 
-            <!-- CONTACT FORM -->
 
-            <div class="contact-card">
+            <!-- ================= CONTACT FORM ================= -->
 
-                <label>Name</label>
+            <form
+                class="contact-card"
+                action="mailto:angelbernal@gmail.com"
+                method="post"
+                enctype="text/plain"
+            >
+
+                <label>
+                    Name
+                </label>
+
                 <input
                     type="text"
+                    name="Name"
                     placeholder="Your name"
+                    required
                 >
 
-                <label>Email</label>
+
+                <label>
+                    Email
+                </label>
+
                 <input
                     type="email"
+                    name="Email"
                     placeholder="Your email"
+                    required
                 >
 
-                <label>Message</label>
+
+                <label>
+                    Message
+                </label>
 
                 <textarea
+                    name="Message"
                     placeholder="Your message..."
+                    required
                 ></textarea>
 
-                <button>
+
+                <button type="submit">
                     ➤ Send Message
                 </button>
 
-            </div>
+            </form>
 
         </div>
 
@@ -457,7 +507,8 @@
     </footer>
 
 
-    <!-- BACK TO TOP -->
+
+    <!-- ================= BACK TO TOP ================= -->
 
     <a href="#home" class="top-button">
         ↑
@@ -465,4 +516,5 @@
 
 
 </body>
+
 </html>
